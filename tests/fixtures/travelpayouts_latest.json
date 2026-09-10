@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "currency": "eur",
+  "data": [
+    {
+      "origin": "PAR",
+      "destination": "HKT",
+      "origin_airport": "CDG",
+      "destination_airport": "HKT",
+      "price": 320,
+      "airline": "FD",
+      "flight_number": 542,
+      "departure_at": "2026-11-05T10:00:00+00:00",
+      "return_at": "2026-11-19T15:00:00+00:00",
+      "transfers": 1,
+      "return_transfers": 1,
+      "duration_to": 720,
+      "duration_back": 705,
+      "distance": 9600,
+      "actual": true
+    },
+    {
+      "origin": "PAR",
+      "destination": "HKT",
+      "origin_airport": "CDG",
+      "destination_airport": "HKT",
+      "price": 900,
+      "airline": "TG",
+      "flight_number": 931,
+      "departure_at": "2019-03-01T10:00:00+00:00",
+      "return_at": "2019-03-15T15:00:00+00:00",
+      "transfers": 0,
+      "return_transfers": 0,
+      "duration_to": 660,
+      "duration_back": 655,
+      "distance": 9600,
+      "actual": true
+    }
+  ]
+}

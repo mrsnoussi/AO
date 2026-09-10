@@ -1,0 +1,50 @@
+{
+  "search_metadata": {"status": "Success"},
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {"id": "CDG", "name": "Paris Charles de Gaulle", "time": "2026-10-01 10:00"},
+          "arrival_airport": {"id": "BKK", "name": "Bangkok", "time": "2026-10-01 23:00"},
+          "airline": "Thai Airways",
+          "flight_number": "TG 931",
+          "duration": 660
+        },
+        {
+          "departure_airport": {"id": "BKK", "name": "Bangkok", "time": "2026-10-15 01:00"},
+          "arrival_airport": {"id": "CDG", "name": "Paris Charles de Gaulle", "time": "2026-10-15 08:00"},
+          "airline": "Thai Airways",
+          "flight_number": "TG 930",
+          "duration": 640
+        }
+      ],
+      "layovers": [],
+      "total_duration": 1300,
+      "price": 410,
+      "type": "Round trip"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {"id": "CDG", "name": "Paris Charles de Gaulle", "time": "2026-10-01 06:00"},
+          "arrival_airport": {"id": "DXB", "name": "Dubai", "time": "2026-10-01 15:00"},
+          "airline": "Emirates",
+          "flight_number": "EK 74",
+          "duration": 400
+        },
+        {
+          "departure_airport": {"id": "DXB", "name": "Dubai", "time": "2026-10-01 17:00"},
+          "arrival_airport": {"id": "BKK", "name": "Bangkok", "time": "2026-10-01 23:30"},
+          "airline": "Emirates",
+          "flight_number": "EK 372",
+          "duration": 330
+        }
+      ],
+      "layovers": [{"duration": 120, "name": "Dubai", "id": "DXB"}],
+      "total_duration": 1500,
+      "price": 480,
+      "type": "Round trip"
+    }
+  ],
+  "other_flights": []
+}

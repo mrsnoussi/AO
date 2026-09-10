@@ -1,0 +1,53 @@
+name: Flight watch
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flight-watch
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run flight watch
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          SERPAPI_ENABLED: ${{ vars.SERPAPI_ENABLED || 'false' }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python -m flight_watch.main
+
+      - name: Commit updated state
+        run: |
+          git config user.name "flight-watch-bot"
+          git config user.email "actions@github.com"
+          git add data/state.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement d'etat a committer"
+          else
+            git commit -m "chore: update flight price state [skip ci]"
+            git push
+          fi
