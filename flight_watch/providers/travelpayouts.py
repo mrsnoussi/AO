@@ -7,6 +7,13 @@ requis (contrairement a l'API de recherche temps reel, qui exige 50 000 MAU
 et interdit l'usage automatise). Cette source ne permet pas d'interroger une
 date de depart precise : on filtre les dates realistes retournees par
 l'API sur la fenetre de recherche voulue.
+
+Schema reel de la reponse (verifie par appel live, differe de la doc
+publique et des autres endpoints Aviasales) : depart_date/return_date sont
+des dates simples (pas de datetime), le prix est dans `value` (pas
+`price`), le nombre d'escales dans `number_of_changes` (une seule valeur,
+non scindee aller/retour), et il n'y a PAS de champ compagnie aerienne :
+seul `gate` (le site vendeur, ex. "Mytrip.com") est disponible.
 """
 from __future__ import annotations
 
@@ -14,6 +21,7 @@ import logging
 import os
 from datetime import date, datetime, timezone
 
+from flight_watch import config
 from flight_watch.core.models import Offer
 from flight_watch.providers.base import Provider, ProviderError
 from flight_watch.providers.http_utils import RequestFailed, get_with_backoff
@@ -24,10 +32,6 @@ API_URL = "https://api.travelpayouts.com/v2/prices/latest"
 
 # trip_duration Travelpayouts est exprime en semaines.
 _NIGHTS_TO_WEEKS = {14: 2, 21: 3}
-
-# Tolerance (en nuits) entre la duree demandee et la duree reelle de l'offre
-# retournee par le cache, qui n'est qu'approximativement alignee sur trip_duration.
-_NIGHTS_TOLERANCE = 3
 
 
 class TravelpayoutsProvider(Provider):
@@ -90,7 +94,7 @@ class TravelpayoutsProvider(Provider):
         raw_items = payload.get("data", [])
         offers: list[Offer] = []
         for item in raw_items:
-            offer = self._parse_offer(item, origin, destination, nights, window_start, window_end)
+            offer = self._parse_offer(item, origin, destination, window_start, window_end)
             if offer is not None:
                 offers.append(offer)
 
@@ -109,33 +113,38 @@ class TravelpayoutsProvider(Provider):
         item: dict,
         origin: str,
         destination: str,
-        nights: int,
         window_start: date,
         window_end: date,
     ) -> Offer | None:
         try:
-            depart_at = item["departure_at"]
-            return_at = item["return_at"]
-            price = float(item["price"])
+            depart_raw = item["depart_date"]
+            return_raw = item["return_date"]
+            price = float(item["value"])
         except (KeyError, TypeError, ValueError):
             return None
 
-        depart_date = _parse_date(depart_at)
-        return_date = _parse_date(return_at)
+        depart_date = _parse_date(depart_raw)
+        return_date = _parse_date(return_raw)
         if depart_date is None or return_date is None:
             return None
         if not (window_start <= depart_date <= window_end):
             return None
 
         actual_nights = (return_date - depart_date).days
-        if actual_nights <= 0 or abs(actual_nights - nights) > _NIGHTS_TOLERANCE:
+        # Le cache n'est qu'approximativement aligne sur trip_duration : on ne
+        # retient que les sejours reellement dans la fourchette demandee
+        # (14-21 nuits), pas une tolerance autour de la cible interrogee.
+        if not (config.STAY_MIN_NIGHTS <= actual_nights <= config.STAY_MAX_NIGHTS):
             return None
 
-        airline = item.get("airline")
-        airlines = (airline,) if airline else ()
+        # Pas de compagnie aerienne sur cet endpoint : on retombe sur le site
+        # vendeur (gate) comme information utile a la place.
+        gate = item.get("gate")
+        airlines = (f"via {gate}",) if gate else ()
 
-        transfers = item.get("transfers", 0) or 0
-        return_transfers = item.get("return_transfers", transfers) or 0
+        # number_of_changes n'est pas scinde aller/retour ; on reporte la
+        # meme valeur des deux cotes plutot que d'inventer un 0 trompeur.
+        changes = int(item.get("number_of_changes", 0) or 0)
 
         return Offer(
             origin=origin,
@@ -145,10 +154,13 @@ class TravelpayoutsProvider(Provider):
             nights=actual_nights,
             price_eur=price,
             airlines=airlines,
-            stops_outbound=int(transfers),
-            stops_return=int(return_transfers),
-            duration_outbound_minutes=item.get("duration_to"),
-            duration_return_minutes=item.get("duration_back"),
+            stops_outbound=changes,
+            stops_return=changes,
+            # `duration` sur cet endpoint est le temps de vol total aller+retour
+            # combine (pas juste l'aller) : on ne le reutilise pas ici pour ne
+            # pas afficher une duree de vol aller trompeuse.
+            duration_outbound_minutes=None,
+            duration_return_minutes=None,
             source=self.name,
             fetched_at=datetime.now(timezone.utc),
         )

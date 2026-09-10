@@ -43,7 +43,7 @@ def test_travelpayouts_parses_offer_within_window():
     assert offer.origin == "PAR"
     assert offer.destination == "HKT"
     assert offer.nights == 14
-    assert offer.airlines == ("FD",)
+    assert offer.airlines == ("via Mytrip.com",)
 
 
 def test_travelpayouts_filters_offers_outside_window():
