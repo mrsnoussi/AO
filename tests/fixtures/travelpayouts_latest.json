@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "currency": "eur",
+  "data": [
+    {
+      "depart_date": "2026-11-05",
+      "origin": "PAR",
+      "destination": "HKT",
+      "gate": "Mytrip.com",
+      "return_date": "2026-11-19",
+      "found_at": "2026-09-10T05:42:26",
+      "trip_class": 0,
+      "value": 320,
+      "number_of_changes": 1,
+      "duration": 3960,
+      "distance": 9742,
+      "show_to_affiliates": true,
+      "actual": true
+    },
+    {
+      "depart_date": "2019-03-01",
+      "origin": "PAR",
+      "destination": "HKT",
+      "gate": "Farera",
+      "return_date": "2019-03-15",
+      "found_at": "2019-02-20T10:00:00",
+      "trip_class": 0,
+      "value": 900,
+      "number_of_changes": 0,
+      "duration": 2600,
+      "distance": 9742,
+      "show_to_affiliates": true,
+      "actual": true
+    }
+  ]
+}
