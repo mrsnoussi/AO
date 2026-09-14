@@ -1,4 +1,4 @@
-"""Configuration centrale de l'agent de veille de vols Paris -> Sud Thailande.
+"""Configuration centrale de l'agent de veille de vols.
 
 Toutes les valeurs metier (routes, budgets, fenetre de recherche, durees de
 sejour, regles d'alerte) sont centralisees ici.
@@ -21,6 +21,12 @@ ROUTES: list[RouteConfig] = [
     RouteConfig(origin="PAR", destination="URT", label="Paris - Surat Thani", budget_eur=300),
     RouteConfig(origin="PAR", destination="KBV", label="Paris - Krabi", budget_eur=300),
     RouteConfig(origin="PAR", destination="BKK", label="Paris - Bangkok", budget_eur=300),
+    RouteConfig(origin="PAR", destination="MIA", label="Paris - Miami", budget_eur=300),
+    RouteConfig(origin="PAR", destination="LAS", label="Paris - Las Vegas", budget_eur=300),
+    RouteConfig(origin="PAR", destination="JFK", label="Paris - New York (JFK)", budget_eur=300),
+    RouteConfig(origin="PAR", destination="LAX", label="Paris - Los Angeles", budget_eur=300),
+    RouteConfig(origin="PAR", destination="IAD", label="Paris - Washington (Dulles)", budget_eur=300),
+    RouteConfig(origin="PAR", destination="ORD", label="Paris - Chicago", budget_eur=300),
 ]
 
 # Fenetre de recherche : de aujourd'hui + SEARCH_WINDOW_START_DAYS jusqu'a

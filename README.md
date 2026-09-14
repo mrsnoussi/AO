@@ -1,9 +1,14 @@
-# Flight Watch — Paris → Sud Thaïlande
+# Flight Watch — Paris → Sud Thaïlande & USA
 
-Agent de veille tarifaire qui surveille des allers-retours Paris → Phuket
-(HKT), Surat Thani (URT), Krabi (KBV) et Bangkok (BKK) sur les 9 prochains
-mois (séjours de 14 à 21 nuits) et envoie un mail dès qu'un AR complet passe
-sous 300 €. Tourne quotidiennement sur GitHub Actions.
+Agent de veille tarifaire qui surveille des allers-retours au départ de
+Paris sur les 9 prochains mois (séjours de 14 à 21 nuits) et envoie un mail
+dès qu'un AR complet passe sous le budget de la route. Tourne quotidiennement
+sur GitHub Actions.
+
+Routes suivies (toutes à 300 € sauf mention contraire, voir `config.py`) :
+- Sud Thaïlande : Phuket (HKT), Surat Thani (URT), Krabi (KBV), Bangkok (BKK)
+- USA : Miami (MIA), Las Vegas (LAS), New York-JFK (JFK), Los Angeles (LAX),
+  Washington-Dulles (IAD), Chicago (ORD)
 
 ## Architecture
 
@@ -122,15 +127,15 @@ dans `.github/workflows/flight-watch.yml`) pour recommiter
 
 ## Calcul du quota d'appels par exécution
 
-**Travelpayouts** : 4 routes × 2 durées de séjour (14 et 21 nuits) = **8
+**Travelpayouts** : 10 routes × 2 durées de séjour (14 et 21 nuits) = **20
 appels HTTP par run**, un par route/durée (`v2/prices/latest` retourne
 jusqu'à `limit` résultats en un seul appel, pas un appel par date). En cron
-quotidien : ~240 appels/mois. Très largement sous les limites par défaut de
+quotidien : ~600 appels/mois. Très largement sous les limites par défaut de
 Travelpayouts (des centaines de requêtes/minute).
 
 **SerpAPI** (si activé) : le nombre de dates de départ possibles dans la
-fenêtre (9 mois, pas de 7 jours) est d'environ 39 par route. Avec 4 routes ×
-2 durées, la matrice complète représenterait ~312 appels *par run* — bien
+fenêtre (9 mois, pas de 7 jours) est d'environ 39 par route. Avec 10 routes ×
+2 durées, la matrice complète représenterait ~780 appels *par run* — bien
 trop pour le tier gratuit. C'est pourquoi `SerpApiProvider` échantillonne
 avec un budget d'appels configurable (`config.SERPAPI_MAX_CALLS_PER_RUN`,
 20 par défaut) partagé entre toutes les combinaisons route/durée d'un run :
