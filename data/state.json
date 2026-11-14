@@ -5083,10 +5083,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 587.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 595.0
         }
       ],
-      "last_price_eur": 587.0,
-      "last_seen": "2026-11-13T14:24:14.892918+00:00",
+      "last_price_eur": 595.0,
+      "last_seen": "2026-11-14T13:20:43.230760+00:00",
       "lowest_price_eur": 587.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 16
@@ -7298,6 +7302,21 @@
       "lowest_seen_date": "2026-10-23",
       "nights": 18
     },
+    "BKK|2027-01-11|21": {
+      "depart_date": "2027-01-11",
+      "destination": "BKK",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 592.0
+        }
+      ],
+      "last_price_eur": 592.0,
+      "last_seen": "2026-11-14T13:20:43.230757+00:00",
+      "lowest_price_eur": 592.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 21
+    },
     "BKK|2027-01-12|14": {
       "depart_date": "2027-01-12",
       "destination": "BKK",
@@ -7533,10 +7552,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 582.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 590.0
         }
       ],
-      "last_price_eur": 582.0,
-      "last_seen": "2026-11-13T14:24:14.892914+00:00",
+      "last_price_eur": 590.0,
+      "last_seen": "2026-11-14T13:20:43.230754+00:00",
       "lowest_price_eur": 582.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 19
@@ -7720,10 +7743,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 488.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 488.0
         }
       ],
       "last_price_eur": 488.0,
-      "last_seen": "2026-11-13T14:24:14.892858+00:00",
+      "last_seen": "2026-11-14T13:20:43.230674+00:00",
       "lowest_price_eur": 488.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 17
@@ -7797,12 +7824,16 @@
         {
           "date": "2026-09-15",
           "price_eur": 607.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 557.0
         }
       ],
-      "last_price_eur": 607.0,
-      "last_seen": "2026-09-15T11:32:13.019654+00:00",
-      "lowest_price_eur": 607.0,
-      "lowest_seen_date": "2026-09-15",
+      "last_price_eur": 557.0,
+      "last_seen": "2026-11-14T13:20:43.230700+00:00",
+      "lowest_price_eur": 557.0,
+      "lowest_seen_date": "2026-11-14",
       "nights": 14
     },
     "BKK|2027-02-01|17": {
@@ -7812,10 +7843,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 623.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 631.0
         }
       ],
-      "last_price_eur": 623.0,
-      "last_seen": "2026-11-13T14:24:14.892960+00:00",
+      "last_price_eur": 631.0,
+      "last_seen": "2026-11-14T13:20:43.230791+00:00",
       "lowest_price_eur": 623.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 17
@@ -8006,10 +8041,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 567.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 563.0
         }
       ],
-      "last_price_eur": 567.0,
-      "last_seen": "2026-11-13T14:24:14.892886+00:00",
+      "last_price_eur": 563.0,
+      "last_seen": "2026-11-14T13:20:43.230734+00:00",
       "lowest_price_eur": 535.0,
       "lowest_seen_date": "2026-11-05",
       "nights": 19
@@ -8540,10 +8579,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 580.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 588.0
         }
       ],
-      "last_price_eur": 580.0,
-      "last_seen": "2026-11-13T14:24:14.892907+00:00",
+      "last_price_eur": 588.0,
+      "last_seen": "2026-11-14T13:20:43.230751+00:00",
       "lowest_price_eur": 580.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 16
@@ -8575,10 +8618,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 608.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 616.0
         }
       ],
-      "last_price_eur": 608.0,
-      "last_seen": "2026-11-13T14:24:14.892946+00:00",
+      "last_price_eur": 616.0,
+      "last_seen": "2026-11-14T13:20:43.230779+00:00",
       "lowest_price_eur": 607.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -9582,6 +9629,21 @@
       "lowest_seen_date": "2026-10-23",
       "nights": 14
     },
+    "BKK|2027-03-13|17": {
+      "depart_date": "2027-03-13",
+      "destination": "BKK",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 559.0
+        }
+      ],
+      "last_price_eur": 559.0,
+      "last_seen": "2026-11-14T13:20:43.230703+00:00",
+      "lowest_price_eur": 559.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 17
+    },
     "BKK|2027-03-14|17": {
       "depart_date": "2027-03-14",
       "destination": "BKK",
@@ -9589,12 +9651,31 @@
         {
           "date": "2026-11-13",
           "price_eur": 554.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 562.0
         }
       ],
-      "last_price_eur": 554.0,
-      "last_seen": "2026-11-13T14:24:14.892881+00:00",
+      "last_price_eur": 562.0,
+      "last_seen": "2026-11-14T13:20:43.230707+00:00",
       "lowest_price_eur": 554.0,
       "lowest_seen_date": "2026-11-13",
+      "nights": 17
+    },
+    "BKK|2027-03-15|17": {
+      "depart_date": "2027-03-15",
+      "destination": "BKK",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 562.0
+        }
+      ],
+      "last_price_eur": 562.0,
+      "last_seen": "2026-11-14T13:20:43.230730+00:00",
+      "lowest_price_eur": 562.0,
+      "lowest_seen_date": "2026-11-14",
       "nights": 17
     },
     "BKK|2027-03-15|21": {
@@ -9608,10 +9689,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 603.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 611.0
         }
       ],
-      "last_price_eur": 603.0,
-      "last_seen": "2026-11-13T14:24:14.892940+00:00",
+      "last_price_eur": 611.0,
+      "last_seen": "2026-11-14T13:20:43.230773+00:00",
       "lowest_price_eur": 602.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -10098,6 +10183,21 @@
       "lowest_price_eur": 667.0,
       "lowest_seen_date": "2026-10-24",
       "nights": 14
+    },
+    "BKK|2027-03-22|17": {
+      "depart_date": "2027-03-22",
+      "destination": "BKK",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 556.0
+        }
+      ],
+      "last_price_eur": 556.0,
+      "last_seen": "2026-11-14T13:20:43.230696+00:00",
+      "lowest_price_eur": 556.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 17
     },
     "BKK|2027-03-23|14": {
       "depart_date": "2027-03-23",
@@ -10964,10 +11064,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 577.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 584.0
         }
       ],
-      "last_price_eur": 577.0,
-      "last_seen": "2026-11-13T14:24:14.892899+00:00",
+      "last_price_eur": 584.0,
+      "last_seen": "2026-11-14T13:20:43.230746+00:00",
       "lowest_price_eur": 577.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 21
@@ -13596,10 +13700,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 591.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 599.0
         }
       ],
-      "last_price_eur": 591.0,
-      "last_seen": "2026-11-13T14:24:14.354134+00:00",
+      "last_price_eur": 599.0,
+      "last_seen": "2026-11-14T13:20:42.890225+00:00",
       "lowest_price_eur": 591.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -13835,10 +13943,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 604.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 612.0
         }
       ],
-      "last_price_eur": 604.0,
-      "last_seen": "2026-11-13T14:24:14.354144+00:00",
+      "last_price_eur": 612.0,
+      "last_seen": "2026-11-14T13:20:42.890231+00:00",
       "lowest_price_eur": 604.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 15
@@ -17365,10 +17477,14 @@
         {
           "date": "2026-11-04",
           "price_eur": 675.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 716.0
         }
       ],
-      "last_price_eur": 675.0,
-      "last_seen": "2026-11-04T14:13:54.111430+00:00",
+      "last_price_eur": 716.0,
+      "last_seen": "2026-11-14T13:20:42.890331+00:00",
       "lowest_price_eur": 591.0,
       "lowest_seen_date": "2026-10-13",
       "nights": 14
@@ -17813,10 +17929,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 679.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 688.0
         }
       ],
-      "last_price_eur": 679.0,
-      "last_seen": "2026-11-13T14:24:14.354217+00:00",
+      "last_price_eur": 688.0,
+      "last_seen": "2026-11-14T13:20:42.890302+00:00",
       "lowest_price_eur": 663.0,
       "lowest_seen_date": "2026-09-10",
       "nights": 14
@@ -17926,10 +18046,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 689.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 699.0
         }
       ],
-      "last_price_eur": 689.0,
-      "last_seen": "2026-11-13T14:24:14.354225+00:00",
+      "last_price_eur": 699.0,
+      "last_seen": "2026-11-14T13:20:42.890313+00:00",
       "lowest_price_eur": 689.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 14
@@ -18011,6 +18135,21 @@
       "lowest_price_eur": 673.0,
       "lowest_seen_date": "2026-09-15",
       "nights": 17
+    },
+    "HKT|2027-01-08|14": {
+      "depart_date": "2027-01-08",
+      "destination": "HKT",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 678.0
+        }
+      ],
+      "last_price_eur": 678.0,
+      "last_seen": "2026-11-14T13:20:42.890286+00:00",
+      "lowest_price_eur": 678.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 14
     },
     "HKT|2027-01-08|15": {
       "depart_date": "2027-01-08",
@@ -18238,10 +18377,14 @@
         {
           "date": "2026-09-17",
           "price_eur": 638.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 720.0
         }
       ],
-      "last_price_eur": 638.0,
-      "last_seen": "2026-09-17T11:27:01.316606+00:00",
+      "last_price_eur": 720.0,
+      "last_seen": "2026-11-14T13:20:42.890338+00:00",
       "lowest_price_eur": 637.0,
       "lowest_seen_date": "2026-09-15",
       "nights": 14
@@ -18847,6 +18990,21 @@
       "lowest_seen_date": "2026-10-13",
       "nights": 21
     },
+    "HKT|2027-01-12|14": {
+      "depart_date": "2027-01-12",
+      "destination": "HKT",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 692.0
+        }
+      ],
+      "last_price_eur": 692.0,
+      "last_seen": "2026-11-14T13:20:42.890309+00:00",
+      "lowest_price_eur": 692.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 14
+    },
     "HKT|2027-01-12|15": {
       "depart_date": "2027-01-12",
       "destination": "HKT",
@@ -18924,6 +19082,21 @@
       "lowest_price_eur": 596.0,
       "lowest_seen_date": "2026-10-13",
       "nights": 21
+    },
+    "HKT|2027-01-13|14": {
+      "depart_date": "2027-01-13",
+      "destination": "HKT",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 644.0
+        }
+      ],
+      "last_price_eur": 644.0,
+      "last_seen": "2026-11-14T13:20:42.890251+00:00",
+      "lowest_price_eur": 644.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 14
     },
     "HKT|2027-01-13|19": {
       "depart_date": "2027-01-13",
@@ -19023,10 +19196,14 @@
         {
           "date": "2026-09-26",
           "price_eur": 647.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 706.0
         }
       ],
-      "last_price_eur": 647.0,
-      "last_seen": "2026-09-26T11:11:58.258826+00:00",
+      "last_price_eur": 706.0,
+      "last_seen": "2026-11-14T13:20:42.890318+00:00",
       "lowest_price_eur": 642.0,
       "lowest_seen_date": "2026-09-22",
       "nights": 14
@@ -19054,10 +19231,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 654.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 663.0
         }
       ],
-      "last_price_eur": 654.0,
-      "last_seen": "2026-11-13T14:24:14.354179+00:00",
+      "last_price_eur": 663.0,
+      "last_seen": "2026-11-14T13:20:42.890265+00:00",
       "lowest_price_eur": 653.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 19
@@ -19097,10 +19278,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 673.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 682.0
         }
       ],
-      "last_price_eur": 673.0,
-      "last_seen": "2026-11-13T14:24:14.354207+00:00",
+      "last_price_eur": 682.0,
+      "last_seen": "2026-11-14T13:20:42.890290+00:00",
       "lowest_price_eur": 644.0,
       "lowest_seen_date": "2026-09-10",
       "nights": 21
@@ -19136,10 +19321,14 @@
         {
           "date": "2026-10-20",
           "price_eur": 638.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 674.0
         }
       ],
-      "last_price_eur": 638.0,
-      "last_seen": "2026-10-20T11:19:00.068696+00:00",
+      "last_price_eur": 674.0,
+      "last_seen": "2026-11-14T13:20:42.890278+00:00",
       "lowest_price_eur": 638.0,
       "lowest_seen_date": "2026-10-17",
       "nights": 14
@@ -19406,10 +19595,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 701.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 710.0
         }
       ],
-      "last_price_eur": 701.0,
-      "last_seen": "2026-11-13T14:24:14.354231+00:00",
+      "last_price_eur": 710.0,
+      "last_seen": "2026-11-14T13:20:42.890323+00:00",
       "lowest_price_eur": 558.0,
       "lowest_seen_date": "2026-10-29",
       "nights": 20
@@ -19554,10 +19747,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 655.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 664.0
         }
       ],
-      "last_price_eur": 655.0,
-      "last_seen": "2026-11-13T14:24:14.354182+00:00",
+      "last_price_eur": 664.0,
+      "last_seen": "2026-11-14T13:20:42.890268+00:00",
       "lowest_price_eur": 654.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 20
@@ -19585,13 +19782,32 @@
         {
           "date": "2026-11-13",
           "price_eur": 675.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 684.0
         }
       ],
-      "last_price_eur": 675.0,
-      "last_seen": "2026-11-13T14:24:14.354210+00:00",
+      "last_price_eur": 684.0,
+      "last_seen": "2026-11-14T13:20:42.890295+00:00",
       "lowest_price_eur": 675.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 17
+    },
+    "HKT|2027-01-22|14": {
+      "depart_date": "2027-01-22",
+      "destination": "HKT",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 683.0
+        }
+      ],
+      "last_price_eur": 683.0,
+      "last_seen": "2026-11-14T13:20:42.890293+00:00",
+      "lowest_price_eur": 683.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 14
     },
     "HKT|2027-01-22|15": {
       "depart_date": "2027-01-22",
@@ -19600,10 +19816,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 715.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 724.0
         }
       ],
-      "last_price_eur": 715.0,
-      "last_seen": "2026-11-13T14:24:14.354247+00:00",
+      "last_price_eur": 724.0,
+      "last_seen": "2026-11-14T13:20:42.890342+00:00",
       "lowest_price_eur": 715.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 15
@@ -19883,10 +20103,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 706.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 716.0
         }
       ],
-      "last_price_eur": 706.0,
-      "last_seen": "2026-11-13T14:24:14.354237+00:00",
+      "last_price_eur": 716.0,
+      "last_seen": "2026-11-14T13:20:42.890334+00:00",
       "lowest_price_eur": 569.0,
       "lowest_seen_date": "2026-11-06",
       "nights": 20
@@ -20176,10 +20400,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 730.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 740.0
         }
       ],
-      "last_price_eur": 730.0,
-      "last_seen": "2026-11-13T14:24:14.354259+00:00",
+      "last_price_eur": 740.0,
+      "last_seen": "2026-11-14T13:20:42.890355+00:00",
       "lowest_price_eur": 730.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -20886,10 +21114,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 615.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 623.0
         }
       ],
-      "last_price_eur": 615.0,
-      "last_seen": "2026-11-13T14:24:14.354157+00:00",
+      "last_price_eur": 623.0,
+      "last_seen": "2026-11-14T13:20:42.890244+00:00",
       "lowest_price_eur": 614.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 19
@@ -21000,10 +21232,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 568.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 576.0
         }
       ],
-      "last_price_eur": 568.0,
-      "last_seen": "2026-11-13T14:24:14.354104+00:00",
+      "last_price_eur": 576.0,
+      "last_seen": "2026-11-14T13:20:42.890200+00:00",
       "lowest_price_eur": 568.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 15
@@ -21031,10 +21267,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 607.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 615.0
         }
       ],
-      "last_price_eur": 607.0,
-      "last_seen": "2026-11-13T14:24:14.354148+00:00",
+      "last_price_eur": 615.0,
+      "last_seen": "2026-11-14T13:20:42.890235+00:00",
       "lowest_price_eur": 606.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -21066,10 +21306,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 609.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 617.0
         }
       ],
-      "last_price_eur": 609.0,
-      "last_seen": "2026-11-13T14:24:14.354152+00:00",
+      "last_price_eur": 617.0,
+      "last_seen": "2026-11-14T13:20:42.890239+00:00",
       "lowest_price_eur": 609.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -21112,6 +21356,21 @@
       "lowest_price_eur": 656.0,
       "lowest_seen_date": "2026-09-26",
       "nights": 21
+    },
+    "HKT|2027-03-13|14": {
+      "depart_date": "2027-03-13",
+      "destination": "HKT",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 670.0
+        }
+      ],
+      "last_price_eur": 670.0,
+      "last_seen": "2026-11-14T13:20:42.890274+00:00",
+      "lowest_price_eur": 670.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 14
     },
     "HKT|2027-03-13|21": {
       "depart_date": "2027-03-13",
@@ -21253,10 +21512,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 590.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 735.0
         }
       ],
-      "last_price_eur": 590.0,
-      "last_seen": "2026-11-13T14:24:14.354130+00:00",
+      "last_price_eur": 735.0,
+      "last_seen": "2026-11-14T13:20:42.890351+00:00",
       "lowest_price_eur": 589.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -21525,10 +21788,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 657.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 666.0
         }
       ],
-      "last_price_eur": 657.0,
-      "last_seen": "2026-11-13T14:24:14.354189+00:00",
+      "last_price_eur": 666.0,
+      "last_seen": "2026-11-14T13:20:42.890271+00:00",
       "lowest_price_eur": 630.0,
       "lowest_seen_date": "2026-10-31",
       "nights": 18
@@ -21595,10 +21862,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 680.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 689.0
         }
       ],
-      "last_price_eur": 680.0,
-      "last_seen": "2026-11-13T14:24:14.354221+00:00",
+      "last_price_eur": 689.0,
+      "last_seen": "2026-11-14T13:20:42.890306+00:00",
       "lowest_price_eur": 589.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -21708,10 +21979,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 667.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 676.0
         }
       ],
-      "last_price_eur": 667.0,
-      "last_seen": "2026-11-13T14:24:14.354201+00:00",
+      "last_price_eur": 676.0,
+      "last_seen": "2026-11-14T13:20:42.890283+00:00",
       "lowest_price_eur": 667.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 18
@@ -21770,10 +22045,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 659.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 713.0
         }
       ],
-      "last_price_eur": 659.0,
-      "last_seen": "2026-11-13T14:24:14.354196+00:00",
+      "last_price_eur": 713.0,
+      "last_seen": "2026-11-14T13:20:42.890327+00:00",
       "lowest_price_eur": 658.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -21833,10 +22112,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 644.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 653.0
         }
       ],
-      "last_price_eur": 644.0,
-      "last_seen": "2026-11-13T14:24:14.354170+00:00",
+      "last_price_eur": 653.0,
+      "last_seen": "2026-11-14T13:20:42.890258+00:00",
       "lowest_price_eur": 643.0,
       "lowest_seen_date": "2026-10-31",
       "nights": 14
@@ -21903,10 +22186,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 725.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 734.0
         }
       ],
-      "last_price_eur": 725.0,
-      "last_seen": "2026-11-13T14:24:14.354255+00:00",
+      "last_price_eur": 734.0,
+      "last_seen": "2026-11-14T13:20:42.890348+00:00",
       "lowest_price_eur": 692.0,
       "lowest_seen_date": "2026-09-10",
       "nights": 14
@@ -22148,10 +22435,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 722.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 732.0
         }
       ],
-      "last_price_eur": 722.0,
-      "last_seen": "2026-11-13T14:24:14.354251+00:00",
+      "last_price_eur": 732.0,
+      "last_seen": "2026-11-14T13:20:42.890345+00:00",
       "lowest_price_eur": 722.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -22167,10 +22458,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 638.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 647.0
         }
       ],
-      "last_price_eur": 638.0,
-      "last_seen": "2026-11-13T14:24:14.354166+00:00",
+      "last_price_eur": 647.0,
+      "last_seen": "2026-11-14T13:20:42.890254+00:00",
       "lowest_price_eur": 611.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -22420,10 +22715,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 645.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 653.0
         }
       ],
-      "last_price_eur": 645.0,
-      "last_seen": "2026-11-13T14:24:14.354174+00:00",
+      "last_price_eur": 653.0,
+      "last_seen": "2026-11-14T13:20:42.890261+00:00",
       "lowest_price_eur": 532.0,
       "lowest_seen_date": "2026-10-13",
       "nights": 20
@@ -22821,10 +23120,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 583.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 591.0
         }
       ],
-      "last_price_eur": 583.0,
-      "last_seen": "2026-11-13T14:24:14.354123+00:00",
+      "last_price_eur": 591.0,
+      "last_seen": "2026-11-14T13:20:42.890219+00:00",
       "lowest_price_eur": 583.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -23489,10 +23792,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 658.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 667.0
         }
       ],
-      "last_price_eur": 658.0,
-      "last_seen": "2026-11-13T14:24:15.849646+00:00",
+      "last_price_eur": 667.0,
+      "last_seen": "2026-11-14T13:20:43.863670+00:00",
       "lowest_price_eur": 654.0,
       "lowest_seen_date": "2026-11-06",
       "nights": 21
@@ -26338,6 +26645,21 @@
       "lowest_seen_date": "2026-10-04",
       "nights": 21
     },
+    "JFK|2026-12-01|16": {
+      "depart_date": "2026-12-01",
+      "destination": "JFK",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 734.0
+        }
+      ],
+      "last_price_eur": 734.0,
+      "last_seen": "2026-11-14T13:20:43.606534+00:00",
+      "lowest_price_eur": 734.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 16
+    },
     "JFK|2026-12-04|14": {
       "depart_date": "2026-12-04",
       "destination": "JFK",
@@ -26544,10 +26866,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 514.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 521.0
         }
       ],
-      "last_price_eur": 514.0,
-      "last_seen": "2026-11-13T14:24:15.568061+00:00",
+      "last_price_eur": 521.0,
+      "last_seen": "2026-11-14T13:20:43.606501+00:00",
       "lowest_price_eur": 509.0,
       "lowest_seen_date": "2026-11-07",
       "nights": 21
@@ -26649,10 +26975,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 525.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 532.0
         }
       ],
-      "last_price_eur": 525.0,
-      "last_seen": "2026-11-13T14:24:15.568069+00:00",
+      "last_price_eur": 532.0,
+      "last_seen": "2026-11-14T13:20:43.606507+00:00",
       "lowest_price_eur": 525.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -26680,10 +27010,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 575.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 583.0
         }
       ],
-      "last_price_eur": 575.0,
-      "last_seen": "2026-11-13T14:24:15.568080+00:00",
+      "last_price_eur": 583.0,
+      "last_seen": "2026-11-14T13:20:43.606516+00:00",
       "lowest_price_eur": 575.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -26777,10 +27111,14 @@
         {
           "date": "2026-11-08",
           "price_eur": 699.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 708.0
         }
       ],
-      "last_price_eur": 699.0,
-      "last_seen": "2026-11-08T13:08:35.347682+00:00",
+      "last_price_eur": 708.0,
+      "last_seen": "2026-11-14T13:20:43.606529+00:00",
       "lowest_price_eur": 694.0,
       "lowest_seen_date": "2026-11-06",
       "nights": 18
@@ -26901,10 +27239,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 623.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 632.0
         }
       ],
-      "last_price_eur": 623.0,
-      "last_seen": "2026-11-13T14:24:15.568088+00:00",
+      "last_price_eur": 632.0,
+      "last_seen": "2026-11-14T13:20:43.606521+00:00",
       "lowest_price_eur": 623.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -26972,10 +27314,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 507.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 514.0
         }
       ],
-      "last_price_eur": 507.0,
-      "last_seen": "2026-11-13T14:24:15.568056+00:00",
+      "last_price_eur": 514.0,
+      "last_seen": "2026-11-14T13:20:43.606498+00:00",
       "lowest_price_eur": 501.0,
       "lowest_seen_date": "2026-09-30",
       "nights": 14
@@ -27070,10 +27416,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 471.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 477.0
         }
       ],
-      "last_price_eur": 471.0,
-      "last_seen": "2026-11-13T14:24:15.568014+00:00",
+      "last_price_eur": 477.0,
+      "last_seen": "2026-11-14T13:20:43.606484+00:00",
       "lowest_price_eur": 470.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 20
@@ -27757,10 +28107,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 419.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 392.0
         }
       ],
-      "last_price_eur": 419.0,
-      "last_seen": "2026-11-13T14:24:15.567970+00:00",
+      "last_price_eur": 392.0,
+      "last_seen": "2026-11-14T13:20:43.606444+00:00",
       "lowest_price_eur": 389.0,
       "lowest_seen_date": "2026-11-06",
       "nights": 19
@@ -27894,10 +28248,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 449.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 455.0
         }
       ],
-      "last_price_eur": 449.0,
-      "last_seen": "2026-11-13T14:24:15.568000+00:00",
+      "last_price_eur": 455.0,
+      "last_seen": "2026-11-14T13:20:43.606472+00:00",
       "lowest_price_eur": 449.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -27964,10 +28322,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 466.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 473.0
         }
       ],
-      "last_price_eur": 466.0,
-      "last_seen": "2026-11-13T14:24:15.568010+00:00",
+      "last_price_eur": 473.0,
+      "last_seen": "2026-11-14T13:20:43.606480+00:00",
       "lowest_price_eur": 466.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -28077,10 +28439,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 499.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 505.0
         }
       ],
-      "last_price_eur": 499.0,
-      "last_seen": "2026-11-13T14:24:15.568029+00:00",
+      "last_price_eur": 505.0,
+      "last_seen": "2026-11-14T13:20:43.606493+00:00",
       "lowest_price_eur": 498.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -28108,10 +28474,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 515.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 522.0
         }
       ],
-      "last_price_eur": 515.0,
-      "last_seen": "2026-11-13T14:24:15.568065+00:00",
+      "last_price_eur": 522.0,
+      "last_seen": "2026-11-14T13:20:43.606504+00:00",
       "lowest_price_eur": 514.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 20
@@ -28653,10 +29023,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 730.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 740.0
         }
       ],
-      "last_price_eur": 730.0,
-      "last_seen": "2026-11-13T14:24:14.795671+00:00",
+      "last_price_eur": 740.0,
+      "last_seen": "2026-11-14T13:20:43.111363+00:00",
       "lowest_price_eur": 730.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -30833,10 +31207,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 747.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 757.0
         }
       ],
-      "last_price_eur": 747.0,
-      "last_seen": "2026-11-13T14:24:15.723369+00:00",
+      "last_price_eur": 757.0,
+      "last_seen": "2026-11-14T13:20:43.729674+00:00",
       "lowest_price_eur": 747.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -30868,10 +31246,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 759.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 769.0
         }
       ],
-      "last_price_eur": 759.0,
-      "last_seen": "2026-11-13T14:24:15.723375+00:00",
+      "last_price_eur": 769.0,
+      "last_seen": "2026-11-14T13:20:43.729678+00:00",
       "lowest_price_eur": 759.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 20
@@ -31676,10 +32058,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 741.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 751.0
         }
       ],
-      "last_price_eur": 741.0,
-      "last_seen": "2026-11-13T14:24:15.723366+00:00",
+      "last_price_eur": 751.0,
+      "last_seen": "2026-11-14T13:20:43.729671+00:00",
       "lowest_price_eur": 741.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 16
@@ -32040,10 +32426,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 841.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 853.0
         }
       ],
-      "last_price_eur": 841.0,
-      "last_seen": "2026-11-13T14:24:15.723386+00:00",
+      "last_price_eur": 853.0,
+      "last_seen": "2026-11-14T13:20:43.729687+00:00",
       "lowest_price_eur": 841.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 16
@@ -32394,10 +32784,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 635.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 644.0
         }
       ],
-      "last_price_eur": 635.0,
-      "last_seen": "2026-11-13T14:24:15.723330+00:00",
+      "last_price_eur": 644.0,
+      "last_seen": "2026-11-14T13:20:43.729642+00:00",
       "lowest_price_eur": 635.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -32507,10 +32901,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 645.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 653.0
         }
       ],
-      "last_price_eur": 645.0,
-      "last_seen": "2026-11-13T14:24:15.723335+00:00",
+      "last_price_eur": 653.0,
+      "last_seen": "2026-11-14T13:20:43.729646+00:00",
       "lowest_price_eur": 644.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -32522,10 +32920,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 659.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 668.0
         }
       ],
-      "last_price_eur": 659.0,
-      "last_seen": "2026-11-13T14:24:15.723352+00:00",
+      "last_price_eur": 668.0,
+      "last_seen": "2026-11-14T13:20:43.729659+00:00",
       "lowest_price_eur": 659.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 15
@@ -32537,10 +32939,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 659.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 668.0
         }
       ],
-      "last_price_eur": 659.0,
-      "last_seen": "2026-11-13T14:24:15.723355+00:00",
+      "last_price_eur": 668.0,
+      "last_seen": "2026-11-14T13:20:43.729662+00:00",
       "lowest_price_eur": 659.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 17
@@ -32552,10 +32958,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 691.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 701.0
         }
       ],
-      "last_price_eur": 691.0,
-      "last_seen": "2026-11-13T14:24:15.723361+00:00",
+      "last_price_eur": 701.0,
+      "last_seen": "2026-11-14T13:20:43.729666+00:00",
       "lowest_price_eur": 691.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 14
@@ -32723,10 +33133,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 651.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 660.0
         }
       ],
-      "last_price_eur": 651.0,
-      "last_seen": "2026-11-13T14:24:15.723343+00:00",
+      "last_price_eur": 660.0,
+      "last_seen": "2026-11-14T13:20:43.729652+00:00",
       "lowest_price_eur": 651.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 15
@@ -32738,10 +33152,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 645.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 654.0
         }
       ],
-      "last_price_eur": 645.0,
-      "last_seen": "2026-11-13T14:24:15.723339+00:00",
+      "last_price_eur": 654.0,
+      "last_seen": "2026-11-14T13:20:43.729649+00:00",
       "lowest_price_eur": 645.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 14
@@ -32792,10 +33210,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 653.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 662.0
         }
       ],
-      "last_price_eur": 653.0,
-      "last_seen": "2026-11-13T14:24:15.723348+00:00",
+      "last_price_eur": 662.0,
+      "last_seen": "2026-11-14T13:20:43.729656+00:00",
       "lowest_price_eur": 653.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 14
@@ -32811,10 +33233,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 538.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 546.0
         }
       ],
-      "last_price_eur": 538.0,
-      "last_seen": "2026-11-13T14:24:15.723314+00:00",
+      "last_price_eur": 546.0,
+      "last_seen": "2026-11-14T13:20:43.729624+00:00",
       "lowest_price_eur": 538.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 17
@@ -33103,10 +33529,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 826.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 837.0
         }
       ],
-      "last_price_eur": 826.0,
-      "last_seen": "2026-11-13T14:24:15.723381+00:00",
+      "last_price_eur": 837.0,
+      "last_seen": "2026-11-14T13:20:43.729683+00:00",
       "lowest_price_eur": 826.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -33780,10 +34210,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 639.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 648.0
         }
       ],
-      "last_price_eur": 639.0,
-      "last_seen": "2026-11-13T14:24:15.152927+00:00",
+      "last_price_eur": 648.0,
+      "last_seen": "2026-11-14T13:20:43.362168+00:00",
       "lowest_price_eur": 639.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 15
@@ -33807,10 +34241,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 779.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 789.0
         }
       ],
-      "last_price_eur": 779.0,
-      "last_seen": "2026-11-13T14:24:15.152942+00:00",
+      "last_price_eur": 789.0,
+      "last_seen": "2026-11-14T13:20:43.362190+00:00",
       "lowest_price_eur": 778.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 21
@@ -33854,6 +34292,51 @@
       "lowest_seen_date": "2026-10-24",
       "nights": 14
     },
+    "MIA|2026-12-14|18": {
+      "depart_date": "2026-12-14",
+      "destination": "MIA",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 721.0
+        }
+      ],
+      "last_price_eur": 721.0,
+      "last_seen": "2026-11-14T13:20:43.362175+00:00",
+      "lowest_price_eur": 721.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 18
+    },
+    "MIA|2026-12-15|17": {
+      "depart_date": "2026-12-15",
+      "destination": "MIA",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 729.0
+        }
+      ],
+      "last_price_eur": 729.0,
+      "last_seen": "2026-11-14T13:20:43.362179+00:00",
+      "lowest_price_eur": 729.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 17
+    },
+    "MIA|2026-12-15|18": {
+      "depart_date": "2026-12-15",
+      "destination": "MIA",
+      "history": [
+        {
+          "date": "2026-11-14",
+          "price_eur": 743.0
+        }
+      ],
+      "last_price_eur": 743.0,
+      "last_seen": "2026-11-14T13:20:43.362182+00:00",
+      "lowest_price_eur": 743.0,
+      "lowest_seen_date": "2026-11-14",
+      "nights": 18
+    },
     "MIA|2026-12-15|19": {
       "depart_date": "2026-12-15",
       "destination": "MIA",
@@ -33869,10 +34352,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 748.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 758.0
         }
       ],
-      "last_price_eur": 748.0,
-      "last_seen": "2026-11-13T14:24:15.152937+00:00",
+      "last_price_eur": 758.0,
+      "last_seen": "2026-11-14T13:20:43.362186+00:00",
       "lowest_price_eur": 747.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 19
@@ -33967,10 +34454,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 904.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 924.0
         }
       ],
-      "last_price_eur": 904.0,
-      "last_seen": "2026-11-13T14:24:15.152947+00:00",
+      "last_price_eur": 924.0,
+      "last_seen": "2026-11-14T13:20:43.362195+00:00",
       "lowest_price_eur": 878.0,
       "lowest_seen_date": "2026-10-24",
       "nights": 14
@@ -34419,10 +34910,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 602.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 610.0
         }
       ],
-      "last_price_eur": 602.0,
-      "last_seen": "2026-11-13T14:24:15.152917+00:00",
+      "last_price_eur": 610.0,
+      "last_seen": "2026-11-14T13:20:43.362164+00:00",
       "lowest_price_eur": 601.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
@@ -34434,10 +34929,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 530.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 537.0
         }
       ],
-      "last_price_eur": 530.0,
-      "last_seen": "2026-11-13T14:24:15.152910+00:00",
+      "last_price_eur": 537.0,
+      "last_seen": "2026-11-14T13:20:43.362158+00:00",
       "lowest_price_eur": 530.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 15
@@ -34449,10 +34948,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 472.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 478.0
         }
       ],
-      "last_price_eur": 472.0,
-      "last_seen": "2026-11-13T14:24:15.152893+00:00",
+      "last_price_eur": 478.0,
+      "last_seen": "2026-11-14T13:20:43.362140+00:00",
       "lowest_price_eur": 472.0,
       "lowest_seen_date": "2026-11-13",
       "nights": 14
@@ -34808,10 +35311,14 @@
         {
           "date": "2026-11-13",
           "price_eur": 535.0
+        },
+        {
+          "date": "2026-11-14",
+          "price_eur": 542.0
         }
       ],
-      "last_price_eur": 535.0,
-      "last_seen": "2026-11-13T14:24:15.993963+00:00",
+      "last_price_eur": 542.0,
+      "last_seen": "2026-11-14T13:20:43.981944+00:00",
       "lowest_price_eur": 534.0,
       "lowest_seen_date": "2026-11-12",
       "nights": 14
